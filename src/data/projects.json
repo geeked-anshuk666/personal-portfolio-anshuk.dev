@@ -1,0 +1,134 @@
+﻿[
+    {
+        "name": "Food Delivery Microservices Platform",
+        "description": "Built scalable microservices for Users, Restaurants, and Delivery using FastAPI, SQLAlchemy, Docker, with fully documented Swagger APIs. Implemented JWT authentication, role-based access control, and async task processing with Redis. Improved order-processing throughput 30% using async I/O and Redis-backed task execution. Deployed on Render with shared PostgreSQL database and inter-service communication via HTTP requests.",
+        "tech": ["Python", "FastAPI", "SQLAlchemy", "Redis", "Docker", "Swagger", "JWT", "PostgreSQL", "Render", "HTTP", "Microservices"],
+        "source": "https://github.com/geeked-anshuk666/food-delivery-backend",
+        "deployment": "https://food-delivery-user-service-nxxt.onrender.com/docs",
+        "visibility": "public",
+        "image": "assets/project_img/food-delivery.jpeg",
+        "preview": "coming-soon",
+        "tags": ["Microservices", "Backend", "API", "Authentication", "Task Processing", "Docker", "Deployment"]
+    },
+    {
+        "name": "Identity Reconciliation Service",
+        "description": "Built a FastAPI service for reconciling user identities across multiple platforms and databases. Implemented fuzzy matching algorithms using Levenshtein distance and data deduplication techniques to maintain data integrity. Features RESTful APIs for integration with existing systems and supports real-time identity resolution.",
+        "tech": ["Python", "FastAPI", "SQLAlchemy", "PostgreSQL", "Fuzzy Matching", "Data Processing", "Levenshtein Distance", "REST APIs"],
+        "source": "https://github.com/geeked-anshuk666/Identity-Reconciliation-Service",
+        "deployment": "https://identity-reconciliation-service-3ay7.onrender.com/docs",
+        "visibility": "public",
+        "image": "assets/project_img/identity.jpeg",
+        "preview": "coming-soon",
+        "tags": ["Backend", "Data Processing", "API", "Identity Management", "Data Quality", "Integration"]
+    },
+    {
+        "name": "Product Importer Application",
+        "description": "Developed a Django application for importing large CSV files (up to 500,000 products) with real-time progress indication. Implemented Celery with Redis for asynchronous processing, webhook notifications, and bulk delete functionality. Containerized with Docker and deployed on Render with PostgreSQL database.",
+        "tech": ["Python", "Django", "Django REST Framework", "PostgreSQL", "Celery", "Redis", "Bootstrap", "jQuery", "Docker", "Render"],
+        "source": "https://github.com/geeked-anshuk666/product-importer",
+        "deployment": "https://product-importer-87e8.onrender.com/",
+        "visibility": "public",
+        "image": "assets/project_img/product-import.jpeg",
+        "preview": "coming-soon",
+        "tags": ["Backend", "Data Processing", "Asynchronous", "Web App", "Docker", "Containerization"]
+    },
+    {
+        "name": "Django Quiz App",
+        "description": "Built a comprehensive quiz application using Django with user authentication, quiz creation, and result tracking features. Implemented RESTful APIs for mobile app integration and admin dashboard for quiz management. Features include multiple question types, time limits, and detailed analytics.",
+        "tech": ["Python", "Django", "Django REST Framework", "SQLite", "HTML", "CSS", "JavaScript", "Bootstrap"],
+        "source": "https://github.com/geeked-anshuk666/django-quiz-app",
+        "deployment": "https://django-quiz-app-alpha.vercel.app",
+        "visibility": "public",
+        "image": "assets/project_img/django-quiz.jpeg",
+        "preview": "coming-soon",
+        "tags": ["Backend", "Web App", "Education", "API", "Django", "Assessment"]
+    },
+    {
+        "name": "Hubspot Integration Module",
+        "description": "Created a FastAPI-based integration module for synchronizing customer data between internal systems and HubSpot CRM. Implemented webhook listeners for real-time updates and automated data synchronization pipelines. Features secure API authentication and error handling with retry mechanisms.",
+        "tech": ["Python", "FastAPI", "HubSpot API", "REST APIs", "Webhooks", "JSON", "OAuth2", "Error Handling"],
+        "source": "https://github.com/geeked-anshuk666/HubSpot-Integration-Module",
+        "visibility": "public",
+        "image": "assets/project_img/hubspot.jpeg",
+        "preview": "coming-soon",
+        "tags": ["Integration", "API", "CRM", "Automation", "Webhooks", "Data Sync"]
+    },
+    
+    {
+        "name": "E-commerce Virtual Assistant Chatbot",
+        "description": "Developed an intelligent chatbot using Rasa framework integrated with LLMs for customer support in e-commerce. Implemented intent recognition, entity extraction, and personalized recommendations.",
+        "tech": ["Python", "Rasa", "LLM", "Natural Language Processing", "Dialogflow", "REST APIs"],
+        "source": "https://github.com/geeked-anshuk666/ecommerce_virtual_assistant_chatbott",
+        
+        "visibility": "public",
+        "image": "assets/project_img/chat-bot.jpeg",
+        "preview": "coming-soon",
+        "tags": ["AI", "Chatbot", "NLP", "Customer Support"]
+    },
+    {
+        "name": "Skin Disease Classifier",
+        "description": "Trained image classifier (VGG16) achieving 90% accuracy across four skin disease categories (Melanoma, Ringworm, Vitiligo, Warts). Crafted interactive Flask web interface facilitating image uploads and real-time predictions with responsive UI. Implemented preliminary treatment information pages for each disease classification.",
+        "tech": ["HTML", "CSS", "TailwindCSS", "JavaScript", "Python", "Flask", "Machine Learning", "VGG16", "TensorFlow", "Keras", "Computer Vision"],
+        "source": "https://github.com/geeked-anshuk666/Skin_Disease_classification",
+        "visibility": "public",
+        "image": "assets/project_img/skin-disease.png",
+        "preview": "coming-soon",
+        "tags": ["Machine Learning", "Web App", "Healthcare", "Image Classification", "Computer Vision", "Medical"]
+    },
+    {
+        "name": "Air Ticket Booking System",
+        "description": "Implemented full-stack booking platform (PHP, MySQL) with real-time seat management, booking confirmation emails, and cancellation functionality. Enhanced reliability using strong validation logic and ACID-compliant MySQL operations. Features include user authentication, flight search, seat selection matrix, and ticket generation.",
+        "tech": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Xampp", "Bootstrap", "jQuery"],
+        "source": "https://github.com/geeked-anshuk666/Radiant-Airlines-Air-Ticket-Booking-System-",
+        
+        "visibility": "public",
+        "image": "assets/project_img/air-ticket.jpeg",
+        "preview": "coming-soon",
+        "tags": ["Full-Stack", "Web App", "Booking System", "E-commerce", "Database", "Authentication"]
+    },
+    {
+        "name": "AI Image Gallery",
+        "description": "Developed a responsive image gallery with search and filtering capabilities using HTML, CSS, and JavaScript. Implemented lazy loading for improved performance and smooth user experience.",
+        "tech": ["HTML", "CSS", "JavaScript", "Bootstrap", "Responsive Design"],
+        "source": "https://github.com/geeked-anshuk666/AI-image-gallery",
+        "deployment": "https://geeked-anshuk666.github.io/AI-image-gallery/",
+        "visibility": "public",
+        "image": "assets/project_img/Ai-art-gallery.png",
+        "preview": "coming-soon",
+        "tags": ["Frontend", "Web App", "UI/UX", "Performance"]
+    },
+    
+    {
+        "name": "Market Multiagent Intelligence",
+        "description": "Developed a Streamlit-based dashboard for multi-agent market intelligence analysis using LangGraph orchestration. Integrated real-time data from NewsData.io, Firecrawl.dev, and Tavily Search APIs with Plotly visualizations. Utilized Google Qwen 2.0 and Groq LLaMA3 for fast inference with context-aware AI assistance.",
+        "tech": ["Python", "Streamlit", "LangGraph", "NewsData.io API", "Firecrawl.dev API", "Tavily Search API", "Plotly", "Groq LLaMA3", "Google Qwen 2.0", "FAISS"],
+        "source": "https://github.com/geeked-anshuk666/Market-Multiagent-Intelligence",
+        "visibility": "public",
+        "image": "assets/project_img/market-multiagent.jpeg",
+        "preview": "coming-soon",
+        "tags": ["AI", "Dashboard", "Data Visualization", "Market Analysis", "Multi-Agent", "LLM"]
+    },
+    {
+        "name": "Illusive.Deception (Text-to-Image Generator)",
+        "description": "Created a Streamlit web application that uses Stable Diffusion v1-4 model to convert text prompts into images. Optimized for CPU performance with reduced image resolution to 256x256 and disabled safety checks. Implemented seed control for reproducible results and used torch.Generator for consistent image generation.",
+        "tech": ["Python", "Streamlit", "Stable Diffusion v1-4", "Diffusers Library", "PyTorch", "Hugging Face"],
+        "source": "https://github.com/geeked-anshuk666/Illusive.Deception",
+        "deployment": "https://huggingface.co/spaces/Anshuk666/Illusive.Deception",
+        "visibility": "public",
+        "image": "assets/project_img/ai-image-generator.png",
+        "preview": "coming-soon",
+        "tags": ["AI", "Generative Art", "Computer Vision", "Web App", "Stable Diffusion"]
+    },
+    
+    {
+        "name": "Stock Price Prediction using LSTM",
+        "description": "Implemented a machine learning model using LSTM neural networks to predict stock prices. Used MinMaxScaler for feature scaling and achieved visualization of predicted vs actual stock prices.",
+        "tech": ["Python", "NumPy", "Pandas", "Matplotlib", "Scikit-learn", "Keras", "TensorFlow", "LSTM"],
+        "source": "https://github.com/geeked-anshuk666/stock-price-prediction-using-regression-via-LSTM",
+        
+        "visibility": "public",
+        "image": "assets/project_img/stock-lstm.jpeg",
+        "preview": "coming-soon",
+        "tags": ["Machine Learning", "Data Science", "Finance", "Deep Learning"]
+    }
+]
