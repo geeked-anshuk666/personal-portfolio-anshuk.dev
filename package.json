@@ -19,5 +19,5 @@
     "homepage": "https://geeked-anshuk666.github.io"
     "devDependencies": {
         "browser-sync": "^3.0.4"
-    }
+    },  
 }

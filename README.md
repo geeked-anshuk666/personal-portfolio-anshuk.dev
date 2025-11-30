@@ -1,4 +1,4 @@
-# geeked-anshuk666.github.io
+# anshuk.dev
 
 Personal website for Anshuk Jirli — a single-page portfolio built with plain HTML, CSS, and JavaScript.  
 The design leans into dark, liquid-glass visuals with subtle motion, a loaded-first impression, and JSON-powered content blocks so updates stay fast.
