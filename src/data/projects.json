@@ -58,7 +58,7 @@
         "name": "E-commerce Virtual Assistant Chatbot",
         "description": "Developed an intelligent chatbot using Rasa framework integrated with LLMs for customer support in e-commerce. Implemented intent recognition, entity extraction, and personalized recommendations.",
         "tech": ["Python", "Rasa", "LLM", "Natural Language Processing", "Dialogflow", "REST APIs"],
-        "source": "https://github.com/geeked-anshuk666/ecommerce_virtual_assistant_chatbott",
+        "source": "https://github.com/geeked-anshuk666/ecommerce_virtual_assistant_chatbot",
         
         "visibility": "public",
         "image": "assets/project_img/chat-bot.jpeg",
