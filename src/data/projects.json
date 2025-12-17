@@ -1,4 +1,16 @@
 ﻿[
+
+     {
+        "name": "Product Importer Application",
+        "description": "Developed a Django application for importing large CSV files (up to 500,000 products) with real-time progress indication. Implemented Celery with Redis for asynchronous processing, webhook notifications, and bulk delete functionality. Containerized with Docker and deployed on Render with PostgreSQL database.",
+        "tech": ["Python", "Django", "Django REST Framework", "PostgreSQL", "Celery", "Redis", "Bootstrap", "jQuery", "Docker", "Render"],
+        "source": "https://github.com/geeked-anshuk666/product-importer",
+        "deployment": "https://product-importer-87e8.onrender.com/",
+        "visibility": "public",
+        "image": "assets/project_img/product-import.jpeg",
+        "preview": "coming-soon",
+        "tags": ["Backend", "Data Processing", "Asynchronous", "Web App", "Docker", "Containerization"]
+    },
     {
         "name": "Food Delivery Microservices Platform",
         "description": "Built scalable microservices for Users, Restaurants, and Delivery using FastAPI, SQLAlchemy, Docker, with fully documented Swagger APIs. Implemented JWT authentication, role-based access control, and async task processing with Redis. Improved order-processing throughput 30% using async I/O and Redis-backed task execution. Deployed on Render with shared PostgreSQL database and inter-service communication via HTTP requests.",
@@ -20,17 +32,6 @@
         "image": "assets/project_img/identity.jpeg",
         "preview": "coming-soon",
         "tags": ["Backend", "Data Processing", "API", "Identity Management", "Data Quality", "Integration"]
-    },
-    {
-        "name": "Product Importer Application",
-        "description": "Developed a Django application for importing large CSV files (up to 500,000 products) with real-time progress indication. Implemented Celery with Redis for asynchronous processing, webhook notifications, and bulk delete functionality. Containerized with Docker and deployed on Render with PostgreSQL database.",
-        "tech": ["Python", "Django", "Django REST Framework", "PostgreSQL", "Celery", "Redis", "Bootstrap", "jQuery", "Docker", "Render"],
-        "source": "https://github.com/geeked-anshuk666/product-importer",
-        "deployment": "https://product-importer-87e8.onrender.com/",
-        "visibility": "public",
-        "image": "assets/project_img/product-import.jpeg",
-        "preview": "coming-soon",
-        "tags": ["Backend", "Data Processing", "Asynchronous", "Web App", "Docker", "Containerization"]
     },
     {
         "name": "Django Quiz App",
