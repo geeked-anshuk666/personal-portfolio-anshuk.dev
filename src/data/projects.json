@@ -34,6 +34,36 @@
         "tags": ["Backend", "Data Processing", "API", "Identity Management", "Data Quality", "Integration"]
     },
     {
+        "name": "AIHawk – Open-Source AI Resume Automation (Extended)",
+        "description": "Extended and customized an open-source AI-powered job application automation system. Refactored the LLM integration layer to be provider-agnostic, enabling support for multiple LLM providers via OpenRouter-compatible APIs instead of OpenAI-only coupling. Improved configuration flexibility for model and endpoint switching without code changes, and significantly enhanced documentation to make setup, customization, and usage more developer-friendly. Focused on extensibility, developer experience, and real-world usability while working with an existing modular Python architecture.",
+        "tech": [
+            "Python",
+            "LLMs",
+            "OpenRouter",
+            "FAISS",
+            "Vector Embeddings",
+            "API Integration",
+            "Configuration Management",
+            "Documentation",
+            "Resume Automation",
+            "Prompt Engineering"
+        ],
+        "source": "https://github.com/geeked-anshuk666/Jobs_Applier_AI_Agent_AIHawk",
+        "visibility": "public",
+        "image": "assets/project_img/aihawk.png",
+        "preview": "coming-soon",
+        "tags": [
+            "Open Source",
+            "AI",
+            "LLM Integration",
+            "Developer Experience",
+            "Automation",
+            "Python",
+            "Refactoring"
+        ]
+    },
+
+    {
         "name": "Django Quiz App",
         "description": "Built a comprehensive quiz application using Django with user authentication, quiz creation, and result tracking features. Implemented RESTful APIs for mobile app integration and admin dashboard for quiz management. Features include multiple question types, time limits, and detailed analytics.",
         "tech": ["Python", "Django", "Django REST Framework", "SQLite", "HTML", "CSS", "JavaScript", "Bootstrap"],
