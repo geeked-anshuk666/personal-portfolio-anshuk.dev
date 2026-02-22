@@ -1,6 +1,16 @@
 ﻿[
-
-     {
+    {
+        "name": "Internal Wallet Service",
+        "description": "Architected a concurrent-safe virtual currency wallet featuring a double-entry ledger system and zero-sum auditability. Engineered idempotent APIs with pessimistic row-level locking to eliminate deadlocks and prevent duplicate processing under parallel loads. Containerized the full stack with Docker Compose and deployed to Render.",
+        "tech": ["Python", "Django", "PostgreSQL", "Docker", "Docker Compose", "Gunicorn", "Render", "REST APIs"],
+        "source": "https://github.com/geeked-anshuk666/Wallet_service",
+        "deployment": "https://wallet-service-0tjx.onrender.com/docs",
+        "visibility": "public",
+        "image": "assets/project_img/wallet-service.jpeg",
+        "preview": "coming-soon",
+        "tags": ["Backend", "FinTech", "Concurrency", "System Design", "Docker", "Database Architecture"]
+    },
+    {
         "name": "Product Importer Application",
         "description": "Developed a Django application for importing large CSV files (up to 500,000 products) with real-time progress indication. Implemented Celery with Redis for asynchronous processing, webhook notifications, and bulk delete functionality. Containerized with Docker and deployed on Render with PostgreSQL database.",
         "tech": ["Python", "Django", "Django REST Framework", "PostgreSQL", "Celery", "Redis", "Bootstrap", "jQuery", "Docker", "Render"],
