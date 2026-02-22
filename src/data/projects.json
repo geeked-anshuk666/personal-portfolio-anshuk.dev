@@ -6,7 +6,7 @@
         "source": "https://github.com/geeked-anshuk666/Wallet_service",
         "deployment": "https://wallet-service-0tjx.onrender.com/docs",
         "visibility": "public",
-        "image": "assets/project_img/wallet-service.jpeg",
+        "image": "assets/project_img/wallet-service.png",
         "preview": "coming-soon",
         "tags": ["Backend", "FinTech", "Concurrency", "System Design", "Docker", "Database Architecture"]
     },
