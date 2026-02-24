@@ -1,6 +1,6 @@
 # My Portfolio
 
-Personal website for Anshuk Jirli — a single-page portfolio built with plain HTML, CSS, and JavaScript.  
+Personal website for Anshuk Jirli - a single-page portfolio built with plain HTML, CSS, and JavaScript.  
 The design leans into dark, liquid-glass visuals with subtle motion, a loaded-first impression, and JSON-powered content blocks so updates stay fast.
 
 ---
@@ -64,7 +64,7 @@ BrowserSync watches `index.html`, everything inside `src/`, and the `assets/` di
 
 ## Deployment (GitHub Pages)
 
-This repository is already configured as a user site (`geeked-anshuk666.github.io`). Pages serves the root of the `main` branch directly — no static build step is required.
+This repository is already configured as a user site (`geeked-anshuk666.github.io`). Pages serves the root of the `main` branch directly - no static build step is required.
 
 1. Commit your changes:
    ```bash
@@ -97,4 +97,4 @@ Ideas and improvements are welcome. Please open an issue first for larger UI/UX 
 
 ## License
 
-MIT © Anshuk Jirli — see [`LICENSE`](LICENSE) for full terms.
+MIT © Anshuk Jirli - see [`LICENSE`](LICENSE) for full terms.
