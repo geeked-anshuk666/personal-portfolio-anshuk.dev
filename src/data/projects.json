@@ -11,6 +11,27 @@
         "tags": ["Backend", "FinTech", "Concurrency", "System Design", "Docker", "Database Architecture"]
     },
     {
+        "name": "Graph based data modelling and query engine for SAP O2C",
+        "description": "Developed a natural language-to-SQL graph query engine for SAP Order-to-Cash data using a single-process FastAPI and Next.js container. Modeled transactional records into an in-memory NetworkX graph (773 nodes, 1148 edges) paired with a SQLite data store. Integrated Gemini 2.5 Flash using Chain-of-Thought prompting and execution guardrails to guarantee safe, read-only analytical queries.",
+        "tech": ["Python", "FastAPI", "SQLite", "Next.js", "Google Gemini", "Docker"],
+        "source": "https://github.com/geeked-anshuk666/Graph-based-data-modelling-and-query-engine",
+        "deployment": "https://o2c-graph-query-app.onrender.com",
+        "visibility": "public",
+        "image": "assets/project_img/sap-graph.png",
+        "preview": "coming-soon",
+        "tags": ["Graph Theory", "Natural Language to SQL", "LLM Orchestration", "Data Visualization"]
+    },
+    {
+        "name": "Event Ingestion & User Memory Management System",
+        "description": "Designed a real-time behavioral data lake processing unstructured clickstream events into a 4-layer cognitive memory model (Persistent, Episodic, Semantic, Contextual). Built a FastAPI gateway routing to MongoDB, decoupled from heavy LLM extraction tasks via a Redis-backed Celery queue. Implemented a cache-aside architecture using Redis to serve hyper-personalized user memory profiles with sub-10ms read latency.",
+        "tech": ["Python", "FastAPI", "MongoDB", "Redis", "Celery", "Docker", "REST APIs"],
+        "source": "https://github.com/geeked-anshuk666/Event-ingestion-and-user-memory-management-system",
+        "visibility": "public",
+        "image": "assets/project_img/memory-system.png",
+        "preview": "coming-soon",
+        "tags": ["Distributed Systems", "Data Engineering", "Cache Optimization", "Asynchronous Processing"]
+    },
+    {
         "name": "Product Importer Application",
         "description": "Developed a Django application for importing large CSV files (up to 500,000 products) with real-time progress indication. Implemented Celery with Redis for asynchronous processing, webhook notifications, and bulk delete functionality. Containerized with Docker and deployed on Render with PostgreSQL database.",
         "tech": ["Python", "Django", "Django REST Framework", "PostgreSQL", "Celery", "Redis", "Bootstrap", "jQuery", "Docker", "Render"],
@@ -53,6 +74,50 @@
         "preview": "coming-soon",
         "tags": ["Integration", "API", "CRM", "Automation", "Webhooks", "Data Sync"]
     },
+    
+
+    {
+        "name": "Autopsy Labs - Autonomous Incident Post-Mortem Agent",
+        "description": "Engineered an autonomous incident post-mortem generator using Python and Airia orchestration. Integrated Slack and GitHub APIs to ingest raw event timelines and commit data into a unified context window. Orchestrated a multi-agent pipeline (GPT-4o mini, GPT-5 Nano, Anthropic Sequential Thinking) with a strict Human-in-the-Loop (HITL) approval gate to synthesize evidence and publish validated reports to Notion, reducing documentation time to under two minutes.",
+        "tech": ["Python", "Slack", "GitHub", "Notion", "OpenAI", "Prompt Engineering"],
+        "source": "https://github.com/geeked-anshuk666/autopsy-labs",
+        "visibility": "public",
+        "image": "assets/project_img/autopsy-labs.png",
+        "preview": "coming-soon",
+        "tags": ["Autonomous Agents", "LLM Orchestration", "Site Reliability Engineering", "Automation"]
+    },
+    {
+        "name": "RepoWarden - Living Specification Engine",
+        "description": "Architected a parallel intelligence layer to extract and validate repository intent, contracts, and architectural decisions. Utilized GitLab Duo and Anthropic Claude to analyze merge requests and generate self-updating specifications. Implemented asynchronous agent flows for pre-merge validation, auto-generating documentation, and identifying security regressions, successfully detecting and mitigating a staging environment timing attack.",
+        "tech": ["Python", "GitLab", "Claude", "LLMs", "Prompt Engineering"],
+        "source": "https://github.com/geeked-anshuk666/RepoWarden",
+        "visibility": "public",
+        "image": "assets/project_img/repowarden.png",
+        "preview": "coming-soon",
+        "tags": ["System Architecture", "Code Analysis", "DevSecOps", "Autonomous Agents"]
+    },
+    
+    
+    {
+        "name": "Umbra Zero - Autonomous Security Operations Center",
+        "description": "Built an edge-deployed Autonomous Security Operations Center (ASOC) utilizing DigitalOcean Gradient AI to detect and mitigate shadow API vulnerabilities. Designed a 3-agent pipeline to classify HTTP traffic, auto-generate 9-layer defense-in-depth IaC (Terraform, Kubernetes, Cloudflare), and execute adversarial validation via Python httpx. Reduced perimeter remediation latency from weeks to seconds through automated threat containment.",
+        "tech": ["Python", "FastAPI", "Docker", "DigitalOcean", "Terraform", "Kubernetes"],
+        "source": "https://github.com/geeked-anshuk666/UmbraZero",
+        "visibility": "public",
+        "image": "assets/project_img/umbra-zero.png",
+        "preview": "coming-soon",
+        "tags": ["DevSecOps", "Autonomous Agents", "Security Engineering", "Infrastructure as Code"]
+    },
+    {
+        "name": "HireIQ - Multimodal AI Talent Evaluation Platform",
+        "description": "Created a multimodal candidate evaluation platform leveraging AWS Bedrock and Amazon Nova 2 Lite models. Engineered a stateful FastAPI backend to synchronously ingest and analyze audio streams, text queries, and canvas whiteboard drawings. Generated transparent evaluation scorecards utilizing Extended Thinking chains to expose step-by-step AI reasoning directly to the recruiter dashboard.",
+        "tech": ["Python", "FastAPI", "React", "SQLite", "AWS", "LLMs"],
+        "source": "https://github.com/geeked-anshuk666/HireIQ",
+        "visibility": "public",
+        "image": "assets/project_img/hireiq.png",
+        "preview": "coming-soon",
+        "tags": ["Multimodal AI", "Full-Stack", "System Architecture", "API Design"]
+    },
     {
         "name": "AIHawk – Open-Source AI Resume Automation (Extended)",
         "description": "Extended and customized an open-source AI-powered job application automation system. Refactored the LLM integration layer to be provider-agnostic, enabling support for multiple LLM providers via OpenRouter-compatible APIs instead of OpenAI-only coupling. Improved configuration flexibility for model and endpoint switching without code changes, and significantly enhanced documentation to make setup, customization, and usage more developer-friendly. Focused on extensibility, developer experience, and real-world usability while working with an existing modular Python architecture.",
@@ -82,16 +147,7 @@
             "Refactoring"
         ]
     },
-    {
-        "name": "Shopify AI Data Agent",
-        "description": "Developed a full-stack AI agent that translates natural language queries into Shopify store insights. Built with a FastAPI backend using LangChain's ReAct pattern to orchestrate data retrieval via Shopify's REST API and complex analysis through a Python REPL. Implemented resilient data fetching with exponential backoff for rate-limit handling and a React-based chat interface for tabular data visualization.",
-        "tech": ["Python", "FastAPI", "LangChain", "Google Gemini", "Pandas", "React", "Tailwind CSS"],
-        "source": "https://github.com/geeked-anshuk666/shopify_ai_agent",
-        "visibility": "public",
-        "image": "assets/project_img/shopify-agent.png",
-        "preview": "coming-soon",
-        "tags": ["AI/ML", "LLM Orchestration", "E-commerce", "Data Analysis", "Full-Stack"]
-    },
+    
 
     {
         "name": "AI-Powered Web Monitor",
@@ -103,6 +159,26 @@
         "image": "assets/project_img/web-monitor.png",
         "preview": "coming-soon",
         "tags": ["Full-Stack", "AI Integration", "Monitoring", "System Design", "Security"]
+    },
+    {
+        "name": "Shopify AI Data Agent",
+        "description": "Developed a full-stack AI agent that translates natural language queries into Shopify store insights. Built with a FastAPI backend using LangChain's ReAct pattern to orchestrate data retrieval via Shopify's REST API and complex analysis through a Python REPL. Implemented resilient data fetching with exponential backoff for rate-limit handling and a React-based chat interface for tabular data visualization.",
+        "tech": ["Python", "FastAPI", "LangChain", "Google Gemini", "Pandas", "React", "Tailwind CSS"],
+        "source": "https://github.com/geeked-anshuk666/shopify_ai_agent",
+        "visibility": "public",
+        "image": "assets/project_img/shopify-agent.png",
+        "preview": "coming-soon",
+        "tags": ["AI/ML", "LLM Orchestration", "E-commerce", "Data Analysis", "Full-Stack"]
+    },
+    {
+        "name": "Market Multiagent Intelligence",
+        "description": "Developed a Streamlit-based dashboard for multi-agent market intelligence analysis using LangGraph orchestration. Integrated real-time data from NewsData.io, Firecrawl.dev, and Tavily Search APIs with Plotly visualizations. Utilized Google Qwen 2.0 and Groq LLaMA3 for fast inference with context-aware AI assistance.",
+        "tech": ["Python", "Streamlit", "LangGraph", "NewsData.io API", "Firecrawl.dev API", "Tavily Search API", "Plotly", "Groq LLaMA3", "Google Qwen 2.0", "FAISS"],
+        "source": "https://github.com/geeked-anshuk666/Market-Multiagent-Intelligence",
+        "visibility": "public",
+        "image": "assets/project_img/market-multiagent.jpeg",
+        "preview": "coming-soon",
+        "tags": ["AI", "Dashboard", "Data Visualization", "Market Analysis", "Multi-Agent", "LLM"]
     },
     {
         "name": "E-commerce Virtual Assistant Chatbot",
@@ -127,16 +203,7 @@
     },
     
     
-    {
-        "name": "Market Multiagent Intelligence",
-        "description": "Developed a Streamlit-based dashboard for multi-agent market intelligence analysis using LangGraph orchestration. Integrated real-time data from NewsData.io, Firecrawl.dev, and Tavily Search APIs with Plotly visualizations. Utilized Google Qwen 2.0 and Groq LLaMA3 for fast inference with context-aware AI assistance.",
-        "tech": ["Python", "Streamlit", "LangGraph", "NewsData.io API", "Firecrawl.dev API", "Tavily Search API", "Plotly", "Groq LLaMA3", "Google Qwen 2.0", "FAISS"],
-        "source": "https://github.com/geeked-anshuk666/Market-Multiagent-Intelligence",
-        "visibility": "public",
-        "image": "assets/project_img/market-multiagent.jpeg",
-        "preview": "coming-soon",
-        "tags": ["AI", "Dashboard", "Data Visualization", "Market Analysis", "Multi-Agent", "LLM"]
-    },
+    
     {
         "name": "Illusive.Deception (Text-to-Image Generator)",
         "description": "Created a Streamlit web application that uses Stable Diffusion v1-4 model to convert text prompts into images. Optimized for CPU performance with reduced image resolution to 256x256 and disabled safety checks. Implemented seed control for reproducible results and used torch.Generator for consistent image generation.",
